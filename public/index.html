@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سودان شحن | شحن الألعاب والاشتراكات</title>
+    <meta
+      name="description"
+      content="تطبيق عربي سوداني لتجديد الألعاب والاشتراكات مثل ستيم، نتفليكس، سبوتيفاي، وإصدارات الألعاب."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <div class="brand-mark">S</div>
+          <span>سودان شحن</span>
+        </div>
+        <nav class="main-nav">
+          <a href="#services">الخدمات</a>
+          <a href="#pricing">الأسعار</a>
+          <a href="#how-it-works">كيف يعمل</a>
+          <a href="/admin">لوحة التحكم</a>
+        </nav>
+        <a class="nav-cta" href="#order-form">اطلب الآن</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="badge">خدمة سبيد وموثوقة</span>
+            <h1>شحن الألعاب والاشتراكات بطريقة سهلة وآمنة</h1>
+            <p>
+              شحن سريع لبطاقات الألعاب، اشتراكات المنصات الرقمية، وباقات الترفيه.
+              كل طلب يتم معالجته بسرعة داخل السودان بواجهة عربية بسيطة.
+            </p>
+            <div class="hero-actions">
+              <a href="#order-form" class="primary-btn">ابدأ الطلب</a>
+              <a href="#services" class="secondary-btn">استعرض الخدمات</a>
+            </div>
+            <div class="stats-row">
+              <div>
+                <strong>+12k</strong>
+                <span>طلب تم</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>تقييم العملاء</span>
+              </div>
+              <div>
+                <strong>5 دقائق</strong>
+                <span>متوسط المعالجة</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="mini-header">
+              <span>طلب شحن سريع</span>
+              <span class="status-dot">متاح الآن</span>
+            </div>
+            <div class="mini-product">
+              <div class="mini-icon">🎮</div>
+              <div>
+                <h3>Steam Wallet</h3>
+                <p>شحن رصيد من 25 إلى 150 دولار</p>
+              </div>
+            </div>
+            <ul class="mini-list">
+              <li>دعم سريع</li>
+              <li>تجربة عربية</li>
+              <li>نتائج فورية</li>
+            </ul>
+            <div class="price-box">
+              <small>من</small>
+              <strong>150</strong>
+              <span>ج.س.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span>الخدمات</span>
+            <h2>اكتشف أكثر الخدمات طلبًا</h2>
+          </div>
+
+          <div class="category-tabs" id="categoryTabs">
+            <button class="tab active" data-category="all">الكل</button>
+            <button class="tab" data-category="games">ألعاب</button>
+            <button class="tab" data-category="subscription">اشتراكات</button>
+            <button class="tab" data-category="streaming">استريم</button>
+          </div>
+
+          <div id="servicesGrid" class="services-grid"></div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <span>الأسعار</span>
+            <h2>باقات تناسب كل احتياج</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <div class="pricing-card">
+              <h3>أساسي</h3>
+              <div class="price">30<span>ج.س</span></div>
+              <ul>
+                <li>شحن ألعاب خفيف</li>
+                <li>تجهيز خلال 10 دقائق</li>
+                <li>دعم عبر واتساب</li>
+              </ul>
+              <button class="secondary-btn block-btn">اختيار</button>
+            </div>
+            <div class="pricing-card featured">
+              <span class="popular">الأكثر طلبًا</span>
+              <h3>مميز</h3>
+              <div class="price">80<span>ج.س</span></div>
+              <ul>
+                <li>شحن الألعاب والاشتراكات</li>
+                <li>أولوية في المعالجة</li>
+                <li>تجهيز فوري</li>
+              </ul>
+              <button class="primary-btn block-btn">اختيار</button>
+            </div>
+            <div class="pricing-card">
+              <h3>مميز جدا</h3>
+              <div class="price">150<span>ج.س</span></div>
+              <ul>
+                <li>مبالغ كبيرة</li>
+                <li>خدمة VIP</li>
+                <li>دعم متقدم</li>
+              </ul>
+              <button class="secondary-btn block-btn">اختيار</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="order-form" class="section form-section">
+        <div class="container form-shell">
+          <div class="form-copy">
+            <span>اطلب الآن</span>
+            <h2>أرسل طلبك ونتولى المعالجة</h2>
+            <p>
+              املأ بيانات الطلب لتحديد الخدمة المطلوبة، المبلغ، وبيانات الحساب.
+              سيتم تقييم الطلب بسرعة وتأكيده من خلال القنوات المتاحة.
+            </p>
+            <div class="mini-info">
+              <div>
+                <strong>الدفع</strong>
+                <span>إيصال إلكتروني أو تحويل</span>
+              </div>
+              <div>
+                <strong>التجهيز</strong>
+                <span>خلال 5-30 دقيقة</span>
+              </div>
+            </div>
+          </div>
+
+          <form id="rechargeForm" class="recharge-form">
+            <div class="field-grid">
+              <label>
+                الاسم الكامل
+                <input type="text" id="customerName" name="customerName" placeholder="مثال: أحمد محمد" required />
+              </label>
+
+              <label>
+                رقم الهاتف
+                <input type="tel" id="phone" name="phone" placeholder="09xxxxxxxx" required />
+              </label>
+            </div>
+
+            <div class="field-grid">
+              <label>
+                الخدمة
+                <select id="service" name="service" required>
+                  <option value="">اختر الخدمة</option>
+                </select>
+              </label>
+
+              <label>
+                القيمة
+                <select id="amount" name="amount" required>
+                  <option value="">اختر المبلغ</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              معرف الحساب / البريد / اللاعب
+              <input type="text" id="accountId" name="accountId" placeholder="Steam ID, Email, أو اسم الحساب" required />
+            </label>
+
+            <label>
+              طريقة الدفع
+              <select id="paymentMethod" name="paymentMethod" required>
+                <option value="">اختر طريقة الدفع</option>
+                <option value="الدفع عند الاستلام">الدفع عند الاستلام</option>
+                <option value="تحويل بنكي">تحويل بنكي</option>
+                <option value="محفظة إلكترونية">محفظة إلكترونية</option>
+              </select>
+            </label>
+
+            <label>
+              ملاحظات إضافية
+              <textarea id="notes" name="notes" rows="4" placeholder="أي تفاصيل إضافية..."></textarea>
+            </label>
+
+            <div id="orderSummary" class="order-summary">
+              <h3>ملخص الطلب</h3>
+              <p>اختر الخدمة والمبلغ لعرض المجموع.</p>
+            </div>
+
+            <button type="submit" class="primary-btn submit-btn">تأكيد الطلب</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span>طريقة العمل</span>
+            <h2>خطوات سريعة وواضحة</h2>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step-card">
+              <div class="step-number">1</div>
+              <h3>اختر الخدمة</h3>
+              <p>حدد نوع الشحن المناسب لك، مثل ستيم، نتفليكس، أو أشتراك لعبة.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">2</div>
+              <h3>املأ التفاصيل</h3>
+              <p>أدخل معرف الحساب واسمك ورقم هاتفك لبدء المعالجة.</p>
+            </div>
+            <div class="step-card">
+              <div class="step-number">3</div>
+              <h3>استلم الطلب</h3>
+              <p>سيتم إرسال التأكيد والمعالجة في أسرع وقت ممكن.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <div class="brand-mark">S</div>
+            <span>سودان شحن</span>
+          </div>
+          <p>شحن سريع وآمن للألعاب والاشتراكات داخل السودان.</p>
+        </div>
+        <div>
+          <h4>تواصل معنا</h4>
+          <ul>
+            <li>واتساب: +249 91 000 0000</li>
+            <li>بريد: support@sudanshion.com</li>
+            <li>Instagram: @sudanshion</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container copyright">© 2026 Sudan Shion. جميع الحقوق محفوظة.</div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

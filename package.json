@@ -1,0 +1,22 @@
+{
+  "name": "sudanese-recharge-app",
+  "version": "1.0.0",
+  "description": "Sudanese recharge app for games and subscriptions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "sudan",
+    "recharge",
+    "games",
+    "subscriptions",
+    "ecommerce"
+  ],
+  "author": "MOHAMED YOUSIF ABAKAR AHMED",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
